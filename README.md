@@ -4,10 +4,10 @@
 The algorithm is a genetic algorithm that interfaces with the legality of John Conway's Game of Life and finds different
 forms of beings called Methuselah according to the one given to them by Conway's Game.       
 
-Game of life - A genetic algorithm that work with the Roulette wheel  selection and select an individual to insert to the running process thus creating a stable, strong and diverse environment of population.
+Game of life - A genetic algorithm that work with the Roulette wheel selection and selects an individual to insert to the running process thus creating a stable, strong and diverse environment of population.
 ( Tkinter , Python )
 
-Link to a video that comprehensively explains the code and all its functions and components:    
+Link to a video that comprehensively explains the code and all its functions and components (Hebrew):    
 https://youtu.be/7BiEzkHaChk    
 
 **Check out the [algorithm's behavior](#Data-and-conclusions) that 6000 generations run shows.**
