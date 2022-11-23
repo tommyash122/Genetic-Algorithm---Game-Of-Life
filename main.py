@@ -72,9 +72,9 @@ class Cell:
             self.grid.cycle_org += 1
             pass
 
-        # it takes 100 cycles from the old organism creation for creating a new one
+        # it takes the (length of the grid * 2.5) cycles from the old organism creation for creating a new one
         if self.grid.cycle_org > 0:
-            self.grid.cycle_org = (self.grid.cycle_org + 1) % 100
+            self.grid.cycle_org = (self.grid.cycle_org + 1) % (self.grid.length * 2.5)
 
     def get_color(self):
         if self.type == "DEATH":
@@ -289,7 +289,7 @@ class App:
 
 # from here we launch the program , you can define the values as you like
 if __name__ == '__main__':
-    app = App(deadline=1000, length=40, init_conf_size=30, cycle_gen=20, cell_size=16, refresh_rate=1)
+    app = App(deadline=1000, length=40, init_conf_size=25, cycle_gen=20, cell_size=16, refresh_rate=1)
 
     file = open("gen_fitness.txt", 'w')
     for i in TOTAL_FITNESS_DATA:
