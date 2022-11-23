@@ -111,6 +111,7 @@ class Grid:
 
     def exec_new_stage(self):
         self.Generation = 0
+        self.cycle_org = 0
         self.Stage += 1
 
         # inserting the new organism to our grid and clear the fit_set for the next iteration
