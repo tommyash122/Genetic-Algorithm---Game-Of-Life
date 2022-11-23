@@ -122,7 +122,7 @@ class Grid:
     # selected based on its fitness level divided by the total fitness sum
     def select(self):
         total_fitness = sum(map(lambda x: x.__getattribute__("fitness"), self.org_fit_set))
-        wheel_location = random.randint(1, len(self.org_fit_set)) * total_fitness
+        wheel_location = random.uniform(0, 1) * total_fitness
 
         org = self.org_fit_set.pop()
         curr_sum = org.__getattribute__("fitness")
