@@ -86,6 +86,7 @@ In a step stage, we will insert the one that was chosen in a random position in 
 
  # Final conclusion: 
  # Genetic Algorithms are freakin awesome
+![2002718273chemistry-atom-proton-electron-animation-17](https://user-images.githubusercontent.com/84855441/203532946-518079d6-7c3f-4cac-ba6e-00552689bdbd.gif)
 
 
 
