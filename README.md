@@ -15,8 +15,8 @@ https://youtu.be/7BiEzkHaChk
 ## System requirements 
 Python 3.4 and above installed.
 
-screen shot of stage 170 generation 19/20:
-![3](https://user-images.githubusercontent.com/84855441/203360903-d79a0b62-05f4-45f4-a823-e3097e036eb7.PNG)
+
+![gif](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzYyMzRmMzJkMzJkMGViODhjYjFhMTQ0YmIyMDliZmQ5YTY3YTQ2ZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/4Le2Y7B0nlJiiPLUMG/giphy.gif)
 
 ## Explanation
 We will provide an explanation of how the algorithm works and the elements included in it:
